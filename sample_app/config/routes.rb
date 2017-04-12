@@ -1,9 +1,7 @@
 Rails.application.routes.draw do
-  get 'a/Static'
+  get 'static_pages/home'
 
-  get 'a/Pages'
-
-  get 'a/controller'
+  get 'static_pages/help'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   root 'application#hello'
